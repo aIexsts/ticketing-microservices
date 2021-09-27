@@ -5,7 +5,7 @@ export default ({ req }) => {
     // We are on the server
 
     return axios.create({
-      baseURL: 'https://www.silverest.xyz/',
+      baseURL: process.env.SERVER_URL,
       headers: req.headers
     });
   } else {
