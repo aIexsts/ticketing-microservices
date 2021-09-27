@@ -17,7 +17,7 @@ spec:
           image: alexsts/ticketing-client
           env:
             - name: SERVER_URL
-              value: 'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local'
+              value: 'http://www.silverest.xyz'
 ---
 apiVersion: v1
 kind: Service
